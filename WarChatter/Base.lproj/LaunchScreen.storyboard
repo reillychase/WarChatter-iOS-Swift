@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-bg-iphone-x" translatesAutoresizingMaskIntoConstraints="NO" id="Iy7-Kq-h8a">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="baO-Pg-m33">
+                                <rect key="frame" x="23" y="275" width="328" height="116"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Iy7-Kq-h8a" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="7Bb-yt-ddT"/>
+                            <constraint firstItem="baO-Pg-m33" firstAttribute="centerX" secondItem="Iy7-Kq-h8a" secondAttribute="centerX" id="DdS-Yr-S6o"/>
+                            <constraint firstItem="Iy7-Kq-h8a" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PWT-L3-MKg"/>
+                            <constraint firstItem="baO-Pg-m33" firstAttribute="centerY" secondItem="Iy7-Kq-h8a" secondAttribute="centerY" id="SO4-RQ-A29"/>
+                            <constraint firstItem="baO-Pg-m33" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="255" id="WwZ-tl-QTq"/>
+                            <constraint firstAttribute="trailing" secondItem="Iy7-Kq-h8a" secondAttribute="trailing" id="fdp-3S-W2K"/>
+                            <constraint firstItem="baO-Pg-m33" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="q8z-K2-VJH"/>
+                            <constraint firstItem="Iy7-Kq-h8a" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yjT-Ub-XSt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login-bg-iphone-x" width="1125" height="2436"/>
+        <image name="logo" width="705" height="144"/>
+    </resources>
+</document>
