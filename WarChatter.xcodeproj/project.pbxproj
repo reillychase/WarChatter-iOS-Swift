@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60660F78D6A8E10D48ED58F3 /* Pods_WarChatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94933F9A3E956289AE4F5156 /* Pods_WarChatter.framework */; };
+		64460E6A204EEBB5007B272E /* WarChatter in Resources */ = {isa = PBXBuildFile; fileRef = 64460E69204EEBB4007B272E /* WarChatter */; };
 		64557EA3204455E600D254FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64557EA2204455E600D254FE /* AppDelegate.swift */; };
 		64557EA5204455E600D254FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64557EA4204455E600D254FE /* ViewController.swift */; };
 		64557EA8204455E600D254FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64557EA6204455E600D254FE /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		22C1CFC21F9620137D4A92C0 /* Pods-WarChatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarChatter.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarChatter/Pods-WarChatter.release.xcconfig"; sourceTree = "<group>"; };
 		64257524204BBA2200809464 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		64257526204BBA3100809464 /* SwiftSocket */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftSocket; path = Pods/SwiftSocket; sourceTree = "<group>"; };
+		64460E69204EEBB4007B272E /* WarChatter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WarChatter; sourceTree = "<group>"; };
 		64557E9F204455E600D254FE /* WarChatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarChatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64557EA2204455E600D254FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64557EA4204455E600D254FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				64557EA1204455E600D254FE /* WarChatter */,
+				64460E69204EEBB4007B272E /* WarChatter */,
 				64557EA0204455E600D254FE /* Products */,
 				643DDA54204BB62600504CE7 /* Frameworks */,
 				1D2F26B9FCA76EA4D7335A43 /* Pods */,
@@ -173,6 +176,7 @@
 				64557EAD204455E600D254FE /* LaunchScreen.storyboard in Resources */,
 				64557EAA204455E600D254FE /* Assets.xcassets in Resources */,
 				64557EA8204455E600D254FE /* Main.storyboard in Resources */,
+				64460E6A204EEBB5007B272E /* WarChatter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
